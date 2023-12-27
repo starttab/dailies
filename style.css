@@ -1,0 +1,40 @@
+@import url(https://seetee.github.io/bp/reset/main.css);
+
+html {
+  background: #333;
+}
+
+body {
+  display: grid;
+}
+
+main {
+  place-self: center;
+  max-width: 90vw;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+
+li {
+  list-style: none;
+  overflow: hidden;
+  border-radius: 1em;
+  background: gray;
+}
+
+figcaption {
+  background: #33333333;
+  display: none;
+}
+
+h1 {
+  display: none;
+}
+
+img, svg {
+  max-width: 100%;
+}
