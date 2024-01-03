@@ -1,7 +1,30 @@
 @import url(https://seetee.github.io/bp/reset/main.css);
+@import "https://unpkg.com/open-props";
+
+:root {
+  --eigengrau: oklch(20.35% 0.014 285.1);
+  --cosmic-latte: oklch(98% 0.023546573553369917 88.23207270313121);
+  --viva-magenta: oklch(52.25% 0.183 13.72);
+  --peach-fuzz: oklch(72.18% 0.161 37.73);
+}
 
 html {
   background: #333;
+  color: var(--cosmic-latte);
+}
+
+section {
+  margin-block-end: 10vh;
+}
+
+section:nth-of-type(2) {
+  background: var(--viva-magenta);
+  display: none;
+}
+
+section:nth-of-type(3) {
+  background: var(--peach-fuzz);
+  display: none;
 }
 
 body {
@@ -16,14 +39,20 @@ main {
 ul {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 4em;
 }
 
 li {
   list-style: none;
   overflow: hidden;
-  border-radius: 1em;
-  background: gray;
+  background: var(--eigengrau);
+  aspect-ratio: var(--ratio-square);
+  border-radius: var(--radius-conditional-3);
+  box-shadow: var(--shadow-1);  
+    &:hover {
+      box-shadow: var(--shadow-3);
+    }
 }
 
 figcaption {
