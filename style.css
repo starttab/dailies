@@ -9,8 +9,8 @@
 }
 
 html {
-  --s: 100px; /* control the size */
-  --c: #333; /* first color */
+  --s: 42px; /* control the size */
+  --c: #343434; /* first color */
   
   --_g: #0000 8%,var(--c) 0 17%,#0000 0 58%;
   background: 
@@ -18,7 +18,7 @@ html {
     linear-gradient( 45deg,var(--_g)) calc(var(--s)/2) 0,
     linear-gradient(135deg,var(--_g),var(--c) 0 67%,#0000 0),        
     linear-gradient( 45deg,var(--_g),var(--c) 0 67%,#0000 0 83%,var(--c) 0 92%,#0000 0),
-    #444; /* second color */
+    #333; /* second color */
   background-size: var(--s) var(--s);
   color: var(--cosmic-latte);
 }
