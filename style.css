@@ -27,10 +27,6 @@ section {
   margin-block-end: 10vh;
 }
 
-/* section:nth-of-type(2) {
-  background: var(--viva-magenta);
-} */
-
 section:nth-of-type(4) {
   background: var(--peach-fuzz);
   display: none;
