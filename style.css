@@ -78,6 +78,19 @@ main {
       gap: 0.6rem;
     }
 
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+li img {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  flex: none;
+}
+
     a {
       display: block;
       padding: 0.7rem 1.1rem;
