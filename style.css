@@ -78,13 +78,13 @@ main {
       gap: 0.6rem;
     }
 
-li {
+li a {
   display: flex;
   align-items: center;
   gap: 0.4rem;
 }
 
-li img {
+li a img {
   width: 18px;
   height: 18px;
   border-radius: 50%;
