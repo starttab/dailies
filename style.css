@@ -22,16 +22,11 @@ html {
   background-size: var(--s) var(--s);
   color: var(--cosmic-latte);
 }
-/*
+
 section {
-  margin-block-end: 10vh;
+  margin-block-end: 5vh;
 }
 
-section:nth-of-type(4) {
-  background: var(--peach-fuzz);
-  display: none;
-}
-*/
 body {
   display: grid;
 }
@@ -60,13 +55,13 @@ main {
       font-size: clamp(1.5rem, 3vw, 2.25rem);
       letter-spacing: 0.04em;
     }
-
+/*
     main {
       width: min(100%, 68rem);
       display: grid;
       gap: clamp(1.25rem, 3vh, 2rem);
     }
-
+*/
     section > h2 {
       margin: 0 0 0.6rem;
       font-size: 0.8rem;
